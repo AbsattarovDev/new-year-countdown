@@ -9,5 +9,7 @@
     height: 100vh;
 }
 
-.container {
+#yearContainer,
+#countdownContainer {
+    color: white;
 }
