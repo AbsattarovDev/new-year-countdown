@@ -11,7 +11,7 @@
 
 #main {
     display: flex;
-    background: url(img/background.jpg);
+    background-color: #0011ff;
     height: 100svh;
     align-items: center;
     justify-content: center;
