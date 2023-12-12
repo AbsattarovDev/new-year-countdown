@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Set the date for New Year's Day
+    // Set the date
     const newYearDate = new Date("January 1, 2024 00:00:00").getTime();
 
     // Update the countdown every 1 second
