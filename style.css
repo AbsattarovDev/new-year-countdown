@@ -7,7 +7,7 @@
 #main {
     display: flex;
     background: url(img/background.jpg);
-    height: 100vh;
+    height: 100svh;
     align-items: center;
     justify-content: center;
     text-align: center;
