@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         // Display the countdown
         document.getElementById(
             "countdown"
-        ).innerHTML = `${days} kun ${hours} soat ${minutes} minut ${seconds} soniya qoldi.`;
+        ).innerHTML = `${days} kun ${hours} soat ${minutes} daqiqa ${seconds} soniya qoldi.`;
 
         // If the countdown is over, display a message
         if (distance < 0) {
