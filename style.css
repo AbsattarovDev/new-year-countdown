@@ -4,11 +4,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: snowky;
-    src: url(./fonts/Snowby.ttf);
-}
-
 #main {
     display: flex;
     background-color: #0011ff;
@@ -16,6 +11,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 .container {
