@@ -45,3 +45,8 @@
 #countdown {
     color: rgb(255, 255, 255);
 }
+
+.white {
+    background: white;
+    height: 40px;
+}
