@@ -12,6 +12,7 @@
     justify-content: center;
     text-align: center;
     overflow: hidden;
+    border-bottom: 20px solid white;
 }
 
 .container {
@@ -44,9 +45,4 @@
 #year,
 #countdown {
     color: rgb(255, 255, 255);
-}
-
-.white {
-    background: white;
-    height: 40px;
 }
