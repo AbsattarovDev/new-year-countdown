@@ -45,3 +45,7 @@
 #countdown {
     color: rgb(255, 255, 255);
 }
+
+#newYear {
+    max-width: 100%;
+}
