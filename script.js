@@ -18,13 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
         // Display the countdown
         document.getElementById(
             "countdown"
-        ).innerHTML = `${days} kun ${hours} soat ${minutes} daqiqa ${seconds} soniya qoldi.`;
+        ).innerHTML = `${days} days ${hours} hours ${minutes} minutes ${seconds} seconds left.`;
 
-        // If the countdown is over, display a message
+        // If the countdown is over, display this message
         if (distance < 0) {
             clearInterval(countdown);
-            document.getElementById("year").innerHTML =
-                "Yangi yilingiz bilan!!!";
+            document.getElementById("year").innerHTML = "Happy New Year!!!";
         }
     }, 1000);
 });
