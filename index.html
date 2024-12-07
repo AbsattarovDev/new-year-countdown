@@ -1,24 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>How long until the New Year?</title>
-        <link rel="stylesheet" href="style.css" />
-        <link rel="stylesheet" href="./sass/style.css" />
-    </head>
-    <body>
-        <main id="main">
-            <div class="container">
-                <div class="yearContainer">
-                    <img id="newYear" src="./img/newYear.png" alt="" />
-                    <h1 id="year"></h1>
-                </div>
-                <div class="countdownContainer">
-                    <p id="countdown"></p>
-                </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>New Year</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-800">
+    <main>
+      <h1 class="upper text-100">Yangi yilga</h1>
+
+      <div class="container">
+        <div class="container-sub" data-type="Kun">
+          <div class="clock days" data-before="00" data-after="01">
+            <div class="span"><span></span><span></span></div>
+            <div class="card">
+              <div class="front">00</div>
+              <div class="back">01</div>
             </div>
-        </main>
-        <script src="script.js"></script>
-    </body>
+          </div>
+        </div>
+
+        <div class="container-sub" data-type="soat">
+          <div class="clock hours" data-before="00" data-after="01">
+            <div class="span"><span></span><span></span></div>
+            <div class="card">
+              <div class="front">00</div>
+              <div class="back">01</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-sub" data-type="daqiqa">
+          <div class="clock minutes" data-before="00" data-after="01">
+            <div class="span"><span></span><span></span></div>
+            <div class="card">
+              <div class="front">00</div>
+              <div class="back">01</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-sub" data-type="soniya">
+          <div class="clock seconds" data-before="00" data-after="01">
+            <div class="span"><span></span><span></span></div>
+            <div class="card">
+              <div class="front">00</div>
+              <div class="back">01</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h1 class="text-100">Qoldi</h1>
+    </main>
+
+    <footer>
+      <!-- <p> Muxriddin</p> -->
+    </footer>
+
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+  </div> -->
+  </body>
 </html>
